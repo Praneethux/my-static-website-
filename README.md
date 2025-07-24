@@ -22,8 +22,7 @@ bash
 ✅ Fully mobile-friendly
 
 Live Preview
-
-              You can view the live site here:
+             You can view the live site here:
             https://http://127.0.0.1:5500/index.html
             
 
