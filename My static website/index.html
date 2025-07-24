@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My AWS Cloud Project</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <h1>My AWS Cloud Project</h1>
+            <p>by <strong>Praneeth</strong></p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h2>Welcome to My Cloud Journey!</h2>
+        <p>Building awesome websites with HTML, CSS, and AWS.</p>
+        
+        <a href="#projects" class="btn">Explore Projects</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p> 
+            Hi, I’m <strong>Praneeth</strong> — a recent Mechanical Engineering graduate with a strong passion for <strong>Cloud Computing</strong> and <strong>Web Development</strong>.  
+            I’ve transitioned from building machines to building digital experiences, and I’m now focused on mastering AWS, frontend design, and real-world cloud deployment.
+        </p>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features">
+        <h2>Features</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>🚀 Fast Hosting</h3>
+                <p>Deployed on AWS S3 for lightning-fast performance.</p>
+            </div>
+            <div class="card">
+                <h3>🎨 Modern Design</h3>
+                <p>Responsive and visually appealing design.</p>
+            </div>
+            <div class="card">
+                <h3>🔒 Secure</h3>
+            </div>
+        </div>
+    </section>
+
+ <!-- Projects Section -->
+<section id="projects">
+    <h2>My Projects</h2>
+    <div class="cards">
+        <!-- Project Setup Card -->
+        <div class="card">
+            <h3>✅ Project Setup</h3>
+            <p>Configured AWS S3 for static website hosting.</p>
+           
+        </div>
+        <!-- HTML & CSS Design Card -->
+        <div class="card">
+            <h3>✅ HTML & CSS Design</h3>
+            <p>Created a stunning interface with improved UI.</p>
+        </div>
+        <!-- Deployment Success Card -->
+        <div class="card">
+            <h3>✅ Deployment Success</h3>
+            <p>Successfully deployed my first AWS cloud project.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+    <h2>Contact Me</h2>
+    <p>Have questions or want to connect? Feel free to reach out!</p>
+    <p class="email">📧 <a href="mailto:saipraneeth721@gmail.com">saipraneeth721@gmail.com</a></p>
+    
+    <!-- Social Media Links in Contact Section -->
+    <div class="social-icons">
+        <a href="https://www.linkedin.com/in/sai-praneeth-reddy-a8631528a/" target="_blank" aria-label="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/Praneethux" target="_blank" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+        </a>
+        <a href="https://x.com/Praneet36759481m" target="_blank" aria-label="Twitter">
+            <i class="fab fa-twitter"></i>
+        </a>
+    </div>
+</section>
+
+<!-- Add Font Awesome for social media icons -->
+<!-- Load Font Awesome from a reliable CDN with a local fallback -->
+<script>
+    (function() {
+        var faScript = document.createElement('script');
+        faScript.src = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js";
+        faScript.crossOrigin = "anonymous";
+        faScript.onload = function() {
+            console.log("Font Awesome loaded from CDN.");
+        };
+        faScript.onerror = function() {
+            console.error("Failed to load Font Awesome from CDN. Loading locally.");
+            var localScript = document.createElement('script');
+            localScript.src = "path/to/local/fontawesome.js"; // Replace with your local path
+            document.head.appendChild(localScript);
+        };
+        document.head.appendChild(faScript);
+    })();
+</script>
+    
+    
